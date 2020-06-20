@@ -34,7 +34,7 @@ namespace Z11_UCR
         {
             {
                 ErrorsStackPanel.Children.Clear();
-                //Login = LoginTextBox.Text; <-- nie uznaje text. nie wiem czemu.
+                Login = LoginTextBox.Text; 
                 Password = PasswordBox.SecurePassword;
                 LoginAttempt?.Invoke(this, new LoginEventArgs(Login, Password));
             }

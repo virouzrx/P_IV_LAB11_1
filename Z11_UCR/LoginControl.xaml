@@ -20,8 +20,8 @@
         </Grid.RowDefinitions>
         <Label Content="Zaloguj się" FontSize="20"   VerticalAlignment="Center" Height="40" Margin="0,6,0.4,6" Grid.ColumnSpan="2" HorizontalAlignment="Center" />
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" Grid.ColumnSpan="2" Margin="0,0,0.4,59" Grid.RowSpan="2">
-            <Label x:Name ="LoginTextBox" Content="Login: " FontSize="7"  Margin="0,36,0,17.8"/>
-            <TextBox VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Login, Mode=TwoWay}" Width="100px" Margin="10,36,70,20.8" Height="16"/>
+            <Label Content="Login: " FontSize="7"  Margin="0,36,0,17.8"/>
+            <TextBox x:Name ="LoginTextBox" VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Login, Mode=TwoWay}" Width="100px" Margin="10,36,70,20.8" Height="16"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Grid.ColumnSpan="2" Margin="0,0.2,0.4,51.6" Grid.RowSpan="2">
             <Label Content="Hasło: " FontSize="7" />
